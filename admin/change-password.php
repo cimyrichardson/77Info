@@ -48,6 +48,9 @@ $error="Old Password not match !!";
 
     <title>77 Info | Add Category</title>
 
+    <!-- FavIcon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
     <!-- App css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/core.css" rel="stylesheet" type="text/css" />

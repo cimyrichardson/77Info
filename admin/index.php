@@ -33,6 +33,8 @@ echo "<script>alert('Invalid Details');</script>";
     <meta name="description" content="News Portal.">
     <meta name="author" content="PHPGurukul">
 
+    <!-- FavIcon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
     <!-- App title -->
     <title>77 Info | Admin Panel</title>

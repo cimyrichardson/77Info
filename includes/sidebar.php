@@ -1,5 +1,4 @@
 <div class="col-md-4">
-
         <!-- Search Widget -->
         <div class="card mb-4">
           <h5 class="card-header">Search</h5>

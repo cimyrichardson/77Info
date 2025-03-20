@@ -23,6 +23,9 @@ include('includes/config.php');
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
 
+  <!-- FavIcon-->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
 </head>
 
 <body>

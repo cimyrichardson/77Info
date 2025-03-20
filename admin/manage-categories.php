@@ -34,7 +34,11 @@ $delmsg="Category deleted forever";
 <html lang="en">
 <head>
 
-    <title> | Manage Categories</title>
+    <title>77 Info | Manage Categories</title>
+
+    <!-- FavIcon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
@@ -44,7 +48,6 @@ $delmsg="Category deleted forever";
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="../plugins/switchery/switchery.min.css">
     <script src="assets/js/modernizr.min.js"></script>
-
 </head>
 
 

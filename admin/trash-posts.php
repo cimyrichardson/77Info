@@ -40,8 +40,9 @@ $delmsg="Post deleted forever";
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
 
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- FavIcon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
     <!-- App title -->
     <title>77 Info | Manage Posts</title>
 

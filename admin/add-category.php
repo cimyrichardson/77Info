@@ -44,6 +44,9 @@ $error="Something went wrong . Please try again.";
     <link rel="stylesheet" href="../plugins/switchery/switchery.min.css">
     <script src="assets/js/modernizr.min.js"></script>
 
+    <!-- FavIcon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
 </head>
 
 

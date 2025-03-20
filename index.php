@@ -1,20 +1,18 @@
 <?php 
-session_start();
-include('includes/config.php');
-
-  ?>
+  session_start();
+  include('includes/config.php');
+?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>77 | Home Page</title>
+  <title>77 Info | Home Page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,6 +20,8 @@ include('includes/config.php');
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
 
+  <!-- FavIcon-->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
