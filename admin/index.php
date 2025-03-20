@@ -67,7 +67,7 @@ echo "<script>alert('Invalid Details');</script>";
                             <div class="text-center account-logo-box">
                                 <h2 class="text-uppercase">
                                     <a href="index.html" class="text-success">
-                                        <span><img src="assets/images/logo.png" alt="" height="56"></span>
+                                        <span><img src="assets/images/logo.png" alt="77 info Logo" height="110"></span>
                                     </a>
                                 </h2>
                                 <!--<h4 class="text-uppercase font-bold m-b-0">Sign In</h4>-->
