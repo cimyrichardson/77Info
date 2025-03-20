@@ -5,29 +5,29 @@ include('includes/config.php');
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>News Portal | Contact us</title>
+  <title>77 Info | Contact us</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Navigation -->
-    <?php include('includes/header.php');?>
-    <!-- Page Content -->
-    <div class="container">
+  <!-- Navigation -->
+  <?php include('includes/header.php');?>
+  <!-- Page Content -->
+  <div class="container">
 
 <?php 
 $pagetype='contactus';
@@ -36,38 +36,38 @@ while($row=mysqli_fetch_array($query))
 {
 
 ?>
-      <h1 class="mt-4 mb-3"><?php echo htmlentities($row['PageTitle'])?>
-  
-      </h1>
+    <h1 class="mt-4 mb-3"><?php echo htmlentities($row['PageTitle'])?>
 
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.php">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Contact</li>
-      </ol>
+    </h1>
 
-      <!-- Intro Content -->
-      <div class="row">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.php">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Contact</li>
+    </ol>
 
-        <div class="col-lg-12">
+    <!-- Intro Content -->
+    <div class="row">
 
-          <p><?php echo $row['Description'];?></p>
-        </div>
+      <div class="col-lg-12">
+
+        <p><?php echo $row['Description'];?></p>
       </div>
-      <!-- /.row -->
-<?php } ?>
-    
     </div>
-    <!-- /.container -->
+    <!-- /.row -->
+<?php } ?>
+  
+  </div>
+  <!-- /.container -->
 
-    <!-- Footer -->
- <?php include('includes/footer.php');?>
+  <!-- Footer -->
+<?php include('includes/footer.php');?>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </body>
+</body>
 
 </html>
